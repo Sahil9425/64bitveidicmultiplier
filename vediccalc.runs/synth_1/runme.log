@@ -1,0 +1,287 @@
+
+*** Running vivado
+    with args -log vedic64.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vedic64.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source vedic64.tcl -notrace
+Command: synth_design -top vedic64 -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 27732 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 283.270 ; gain = 73.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vedic64' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:23]
+INFO: [Synth 8-638] synthesizing module 'vedic32' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:23]
+INFO: [Synth 8-638] synthesizing module 'vedic16' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:23]
+INFO: [Synth 8-638] synthesizing module 'vedic8' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:23]
+INFO: [Synth 8-638] synthesizing module 'vedic4' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic4.v:23]
+INFO: [Synth 8-638] synthesizing module 'vedic2_2' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic2.v:23]
+INFO: [Synth 8-638] synthesizing module 'hadder' [D:/project_1/project_1.srcs/sources_1/new/hadder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'hadder' (1#1) [D:/project_1/project_1.srcs/sources_1/new/hadder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'vedic2_2' (2#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic2.v:23]
+INFO: [Synth 8-638] synthesizing module '_4bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/4bitadder.v:23]
+INFO: [Synth 8-638] synthesizing module 'FA' [D:/project_5/project_5.srcs/sources_1/new/FULLadder.v:22]
+INFO: [Synth 8-638] synthesizing module 'HA' [D:/project_5/project_5.srcs/sources_1/new/FULLadder.v:31]
+INFO: [Synth 8-256] done synthesizing module 'HA' (3#1) [D:/project_5/project_5.srcs/sources_1/new/FULLadder.v:31]
+INFO: [Synth 8-256] done synthesizing module 'FA' (4#1) [D:/project_5/project_5.srcs/sources_1/new/FULLadder.v:22]
+INFO: [Synth 8-256] done synthesizing module '_4bitadder' (5#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/4bitadder.v:23]
+WARNING: [Synth 8-350] instance 'd1' of module '_4bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic4.v:45]
+INFO: [Synth 8-638] synthesizing module '_6bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_6bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_6bitadder' (6#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_6bitadder.v:23]
+WARNING: [Synth 8-350] instance 'd2' of module '_6bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic4.v:48]
+WARNING: [Synth 8-350] instance 'd3' of module '_6bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic4.v:50]
+INFO: [Synth 8-256] done synthesizing module 'vedic4' (7#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic4.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'c' does not match port width (8) of module 'vedic4' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:39]
+WARNING: [Synth 8-689] width (16) of port connection 'c' does not match port width (8) of module 'vedic4' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:40]
+WARNING: [Synth 8-689] width (16) of port connection 'c' does not match port width (8) of module 'vedic4' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:41]
+WARNING: [Synth 8-689] width (16) of port connection 'c' does not match port width (8) of module 'vedic4' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:42]
+INFO: [Synth 8-638] synthesizing module '_8bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_8bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_8bitadder' (8#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_8bitadder.v:23]
+WARNING: [Synth 8-350] instance 'u4' of module '_8bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:44]
+INFO: [Synth 8-638] synthesizing module '_12bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_12bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_12bitadder' (9#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_12bitadder.v:23]
+WARNING: [Synth 8-350] instance 'u5' of module '_12bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:47]
+WARNING: [Synth 8-350] instance 'u6' of module '_12bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:49]
+INFO: [Synth 8-256] done synthesizing module 'vedic8' (10#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:23]
+INFO: [Synth 8-638] synthesizing module '_16bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_16bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_16bitadder' (11#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_16bitadder.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'b' does not match port width (16) of module '_16bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:44]
+WARNING: [Synth 8-350] instance 'u4' of module '_16bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:44]
+INFO: [Synth 8-638] synthesizing module '_24bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_24bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_24bitadder' (12#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_24bitadder.v:23]
+WARNING: [Synth 8-350] instance 'u5' of module '_24bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:47]
+WARNING: [Synth 8-350] instance 'u6' of module '_24bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:49]
+INFO: [Synth 8-256] done synthesizing module 'vedic16' (13#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:23]
+INFO: [Synth 8-638] synthesizing module '_32bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_32bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_32bitadder' (14#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_32bitadder.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'a' does not match port width (32) of module '_32bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:44]
+WARNING: [Synth 8-350] instance 'u4' of module '_32bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:44]
+INFO: [Synth 8-638] synthesizing module '_48bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_48bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_48bitadder' (15#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_48bitadder.v:23]
+WARNING: [Synth 8-350] instance 'u5' of module '_48bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:47]
+WARNING: [Synth 8-350] instance 'u6' of module '_48bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:49]
+INFO: [Synth 8-256] done synthesizing module 'vedic32' (16#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:23]
+INFO: [Synth 8-638] synthesizing module '_64bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_64bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_64bitadder' (17#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_64bitadder.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'a' does not match port width (64) of module '_64bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:44]
+WARNING: [Synth 8-350] instance 'u4' of module '_64bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:44]
+INFO: [Synth 8-638] synthesizing module '_96bitadder' [D:/vediccalc/vediccalc.srcs/sources_1/new/_96bitadder.v:23]
+INFO: [Synth 8-256] done synthesizing module '_96bitadder' (18#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/_96bitadder.v:23]
+WARNING: [Synth 8-350] instance 'u5' of module '_96bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:47]
+WARNING: [Synth 8-350] instance 'u6' of module '_96bitadder' requires 4 connections, but only 3 given [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:49]
+INFO: [Synth 8-256] done synthesizing module 'vedic64' (19#1) [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 320.594 ; gain = 110.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 320.594 ; gain = 110.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 320.594 ; gain = 110.961
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 328.359 ; gain = 118.727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 17920 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hadder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 550.961 ; gain = 341.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 550.961 ; gain = 341.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |   400|
+|2     |LUT3 |   494|
+|3     |LUT4 |   470|
+|4     |LUT5 |   889|
+|5     |LUT6 |  2554|
+|6     |IBUF |    96|
+|7     |OBUF |   128|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  5031|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 856.570 ; gain = 646.938
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 856.570 ; gain = 646.938
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 856.570 ; gain = 646.938
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'vedic64' is not ideal for floorplanning, since the cellview 'vedic64' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:55 . Memory (MB): peak = 866.762 ; gain = 657.129
+INFO: [Common 17-1381] The checkpoint 'D:/vediccalc/vediccalc.runs/synth_1/vedic64.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 866.762 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 16:06:49 2023...

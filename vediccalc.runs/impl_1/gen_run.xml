@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1682850948">
+  <File Type="PWROPT-DRC" Name="vedic64_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vedic64_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="vedic64_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="vedic64_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="vedic64.tcl"/>
+  <File Type="OPT-HWDEF" Name="vedic64.hwdef"/>
+  <File Type="RDI-RDI" Name="vedic64.vdi"/>
+  <File Type="OPT-DCP" Name="vedic64_opt.dcp"/>
+  <File Type="OPT-DRC" Name="vedic64_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="vedic64_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="vedic64_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="vedic64_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="vedic64_placed.dcp"/>
+  <File Type="PLACE-IO" Name="vedic64_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="vedic64_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vedic64_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vedic64_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vedic64_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vedic64_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vedic64_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="vedic64_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vedic64_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vedic64_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="vedic64_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vedic64_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="vedic64_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vedic64_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vedic64_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vedic64_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vedic64_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vedic64_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="vedic64.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="vedic64_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="vedic64.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vedic64_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="vedic64.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vedic64_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="vedic64.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vedic64_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="vedic64_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="vedic64_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="vedic64_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vedic64_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vedic64_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vedic64_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vedic64_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="vedic64_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="vedic64_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vedic64_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vedic64_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vedic64_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vedic64_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vedic64_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="vedic64.bit"/>
+  <File Type="BITSTR-RBT" Name="vedic64.rbt"/>
+  <File Type="BITSTR-NKY" Name="vedic64.nky"/>
+  <File Type="BITSTR-BMM" Name="vedic64_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="vedic64.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="vedic64.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../project_5/project_5.srcs/sources_1/new/FULLadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/sources_1/new/hadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/4bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_6bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vedic2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_8bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_12bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vedic4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_24bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_16bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vedic8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_48bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_32bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vedic16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_96bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/_64bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vedic32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vedic64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vedic64"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
