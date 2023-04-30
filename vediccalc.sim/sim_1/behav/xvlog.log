@@ -1,0 +1,42 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_5/project_5.srcs/sources_1/new/FULLadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2458] undeclared symbol c, assumed default net type wire [D:/project_5/project_5.srcs/sources_1/new/FULLadder.v:27]
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project_1/project_1.srcs/sources_1/new/hadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/4bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _4bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_6bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _6bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/vedic2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_8bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _8bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_12bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _12bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/vedic4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_24bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _24bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_16bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _16bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_48bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _48bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_32bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _32bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_96bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _96bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/_64bitadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _64bitadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic64
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.srcs/sim_1/new/vedic64testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vedic64testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vediccalc/vediccalc.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

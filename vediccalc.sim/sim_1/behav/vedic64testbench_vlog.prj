@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../project_5/project_5.srcs/sources_1/new/FULLadder.v"
+verilog xil_defaultlib  "../../../../project_1/project_1.srcs/sources_1/new/hadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/4bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_6bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/vedic2.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_8bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_12bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/vedic4.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_24bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_16bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/vedic8.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_48bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_32bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/vedic16.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_96bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/_64bitadder.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/vedic32.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sources_1/new/vedic64.v"
+verilog xil_defaultlib  "../../../vediccalc.srcs/sim_1/new/vedic64testbench.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

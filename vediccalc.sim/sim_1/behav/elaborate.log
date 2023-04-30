@@ -1,0 +1,48 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 97d8a83c3b6546a5bffce3d9c2e9bfe7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot vedic64testbench_behav xil_defaultlib.vedic64testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 8 for port c [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:39]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/4bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_6bitadder.v:31]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_6bitadder.v:32]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 8 for port c [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:40]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 8 for port c [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:41]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 8 for port c [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:42]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_8bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_12bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port b [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic8.v:49]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 16 for port b [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic16.v:44]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_16bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_24bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 32 for port a [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic32.v:44]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_32bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port z [D:/vediccalc/vediccalc.srcs/sources_1/new/_48bitadder.v:30]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 64 for port a [D:/vediccalc/vediccalc.srcs/sources_1/new/vedic64.v:44]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hadder
+Compiling module xil_defaultlib.vedic2_2
+Compiling module xil_defaultlib.HA
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib._4bitadder
+Compiling module xil_defaultlib._6bitadder
+Compiling module xil_defaultlib.vedic4
+Compiling module xil_defaultlib._8bitadder
+Compiling module xil_defaultlib._12bitadder
+Compiling module xil_defaultlib.vedic8
+Compiling module xil_defaultlib._16bitadder
+Compiling module xil_defaultlib._24bitadder
+Compiling module xil_defaultlib.vedic16
+Compiling module xil_defaultlib._32bitadder
+Compiling module xil_defaultlib._48bitadder
+Compiling module xil_defaultlib.vedic32
+Compiling module xil_defaultlib._64bitadder
+Compiling module xil_defaultlib._96bitadder
+Compiling module xil_defaultlib.vedic64
+Compiling module xil_defaultlib.vedic64testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vedic64testbench_behav
