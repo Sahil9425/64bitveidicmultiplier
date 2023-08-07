@@ -15,6 +15,13 @@ The 2x2 vedic multiplier is used as our initial multipler based on which multipl
 
 ![image](https://github.com/Sahil9425/64bitveidicmultiplier/assets/132200377/10ac4113-d010-46ac-bd33-5452cce53de4)
 
+
+
+
+
+
 RTL Schematic
+
+
 ![image](https://github.com/Sahil9425/64bitveidicmultiplier/assets/132200377/f7bbf532-0341-4fad-8408-15dc39dca31d)
 
